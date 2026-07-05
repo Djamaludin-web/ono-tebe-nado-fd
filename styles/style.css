@@ -109,10 +109,6 @@
   padding-right: 50px;
 }
 
-.bet-button-link {
-  display: block;
-  text-decoration: none;
-}
 
 .cover__description-text {
   color: rgba(255, 255, 255, 1);
@@ -125,6 +121,9 @@
 }
 
 .bet-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   border: 1px solid rgba(255, 255, 255, 1);
   background: transparent;
@@ -134,6 +133,7 @@
   font-size: 22px;
   font-family: 'Raleway', sans-serif;
   padding: 8px 16px;
+  text-decoration: none;
 }
 
 .lots {
