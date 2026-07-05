@@ -80,7 +80,7 @@
   color: rgba(255, 255, 255, 1);
   font-size: 100px;
   row-gap: 19px;
-  letter-spacing: 30px;
+  letter-spacing: 40px;
   padding-top: 165px;
   padding-left: 50px;
   padding-right: 50px;
@@ -239,7 +239,7 @@
 .about {
   display: grid;
   justify-items: center;
-  padding: 120px 24px; 
+  padding: 100px 24px; 
 }
 
 .about__column {
