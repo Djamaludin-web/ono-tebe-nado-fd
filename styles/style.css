@@ -7,19 +7,15 @@
   padding-left: 50px;
 }
 
- .header_menu {
+.header_menu {
   margin-right: 16.52px;
 }
 
-.header__link, 
+.header__link,
 .header__links-list,
 .header__address a,
 .bet-button {
   font-family: 'Raleway', sans-serif;
-}
-
-.header__address {
-font-style: normal;
 }
 
 .header__links-list {
@@ -57,7 +53,8 @@ font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  list-style-type: none;
+  list-style: none;
+  font-style: normal;
 }
 
 .cover {
@@ -68,10 +65,11 @@ font-style: normal;
   background-position: center;
   z-index: 1;
 }
+
 .overlay {
   position: absolute;
-  inset: 0;           
-  background: rgba(0, 0, 0, 0.5); 
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
 
@@ -89,11 +87,11 @@ font-style: normal;
 }
 
 .aligned-text_left {
- align-self: flex-start;
+  align-self: flex-start;
 }
 
 .aligned-text_center {
- align-self: center;
+  align-self: center;
 }
 
 .aligned-text_right {
@@ -102,8 +100,10 @@ font-style: normal;
 
 .description {
   display: flex;
-  align-items: center; /* Выравниваем текст и кнопку ровно по одной горизонтальной линии */
-  justify-content: space-between; /*Расталкивает элементы к левому и правому краям */
+  align-items: center;
+  /* Выравниваем текст и кнопку ровно по одной горизонтальной линии */
+  justify-content: space-between;
+  /*Расталкивает элементы к левому и правому краям */
   padding-top: 118px;
   padding-left: 50px;
   padding-right: 50px;
@@ -125,7 +125,7 @@ font-style: normal;
 }
 
 .bet-button {
-    text-transform: uppercase;
+  text-transform: uppercase;
   border: 1px solid rgba(255, 255, 255, 1);
   background: transparent;
   color: rgba(255, 255, 255, 1);
@@ -150,7 +150,8 @@ font-style: normal;
 
 }
 
-.card-link, .card {
+.card-link,
+.card {
   text-decoration: none;
   height: 100%;
 }
@@ -161,13 +162,15 @@ font-style: normal;
   justify-content: flex-start;
   position: relative;
   z-index: 0;
-  width: 334px; /* Размеры карточек */
+  width: 334px;
+  /* Размеры карточек */
   min-height: 596px;
-  padding: 48px 40px 40px 40px; /* Внутренние отступы карточки со всех сторон */
-  z-index: 0;
+  padding: 48px 40px 40px 40px;
+  /* Внутренние отступы карточки со всех сторон */
 }
 
-.card__text, .card__title {
+.card__text,
+.card__title {
   position: relative;
   z-index: 2;
   color: white;
@@ -177,12 +180,12 @@ font-style: normal;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 22px;
-  line-height: 120%; 
+  line-height: 120%;
   text-transform: uppercase;
-  margin: 0 0 24px 0; 
+  margin: 0 0 24px 0;
   text-decoration: underline;
   z-index: 2;
-  
+
 }
 
 .card__text {
@@ -190,7 +193,7 @@ font-style: normal;
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
-  width: auto; 
+  width: auto;
   z-index: 2;
   margin-top: auto;
 }
@@ -223,8 +226,8 @@ font-style: normal;
 .link {
   font-weight: 400;
   font-size: 20px;
-  align-self: flex-start; 
-  margin-top: 30px;    /* Задаст аккуратный отступ от карточек вниз */
+  align-self: flex-start;
+  margin-top: 30px; /* Задаст аккуратный отступ от карточек вниз */
   margin-left: 40px;
 }
 
@@ -235,7 +238,7 @@ font-style: normal;
 
 .about {
   display: grid;
-  justify-items: center; 
+  justify-items: center;
 }
 
 .about__column {
@@ -244,19 +247,22 @@ font-style: normal;
   align-items: start;
   gap: 72px;
   padding-top: 120px;
-
 }
 
-.about__logo{
+.about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 240px; /* Размер контейнера */
+  width: 240px;
+  /* Размер контейнера */
   height: 240px;
-  background-color: black; /* Фоновый цвет круга */
-  border: 4px solid black; /* Цвет и толщина рамки */
-  border-radius: 50%; /* Делает элемент идеально круглым */
-  margin: 0 auto; 
+  background-color: black;
+  /* Фоновый цвет круга */
+  border: 4px solid black;
+  /* Цвет и толщина рамки */
+  border-radius: 50%;
+  /* Делает элемент идеально круглым */
+  margin: 0 auto;
 }
 
 .about__content {
@@ -283,7 +289,7 @@ font-style: normal;
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 .bottom__text {
@@ -302,7 +308,7 @@ font-style: normal;
 }
 
 .footer_address-list {
-  list-style-type: none; 
+  list-style-type: none;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -319,7 +325,7 @@ font-style: normal;
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   justify-content: flex-end;
   gap: 48px;
