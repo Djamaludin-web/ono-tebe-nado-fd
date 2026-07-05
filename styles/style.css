@@ -239,6 +239,7 @@
 .about {
   display: grid;
   justify-items: center;
+  padding: 120px 24px; 
 }
 
 .about__column {
@@ -246,7 +247,8 @@
   grid-template-columns: 334px 1fr;
   align-items: start;
   gap: 72px;
-  padding-top: 120px;
+  width: 100%;
+  max-width: 1052px; 
 }
 
 .about__logo {
@@ -299,8 +301,7 @@
 .footer__content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 180px;
-  padding-bottom: 115px;
+  padding: 180px 50px 115px; 
 }
 
 .footer__menu {
