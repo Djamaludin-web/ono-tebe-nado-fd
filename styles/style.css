@@ -3,12 +3,8 @@
   display: grid;
   align-items: center;
   padding-top: 92px;
-  padding-bottom: 96px;
+  padding-bottom: 92px;
   padding-left: 50px;
-}
-
-.header_menu {
-  margin-right: 16.52px;
 }
 
 .header__link,
@@ -20,7 +16,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 30.52px;
+  gap: 32.52px;
   list-style: circle;
   font-size: 18px;
 }
@@ -55,6 +51,7 @@
   align-items: flex-start;
   list-style: none;
   font-style: normal;
+  font-size: 18px;
 }
 
 .cover {
@@ -239,7 +236,7 @@
 .about {
   display: grid;
   justify-items: center;
-  padding: 100px 24px; 
+  padding: 120px 24px;
 }
 
 .about__column {
@@ -248,7 +245,7 @@
   align-items: start;
   gap: 72px;
   width: 100%;
-  max-width: 1052px; 
+  max-width: 1052px;
 }
 
 .about__logo {
@@ -301,7 +298,7 @@
 .footer__content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 50px 115px; 
+  padding: 60px 50px 115px;
 }
 
 .footer__menu {
