@@ -5,18 +5,12 @@
   padding-top: 92px;
   padding-bottom: 92px;
   padding-left: 50px;
-}
-
-.header__link,
-.header__links-list,
-.header__address a,
-.bet-button {
-  font-family: 'Raleway', sans-serif;
+  padding-right: 50px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 32.52px;
+  gap: 28px;
   list-style: circle;
   font-size: 18px;
 }
@@ -32,15 +26,10 @@
 .header__logo-image {
   width: 148px;
   height: 105px;
-  margin-right: 85px;
 }
 
-/*.header_logo {
-  padding-top: 92px;
-  padding-bottom: 96px;
-}
-*/
 .address {
+  line-height: 1.35;
   max-width: 240px;
   justify-self: end;
   padding-right: 50px;
@@ -57,7 +46,6 @@
 
 .cover {
   position: relative;
-  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -78,7 +66,7 @@
   color: rgba(255, 255, 255, 1);
   font-size: 100px;
   row-gap: 19px;
-  letter-spacing: 25%;
+  letter-spacing: 0.3em;
   padding-top: 165px;
   padding-left: 50px;
   padding-right: 50px;
@@ -113,7 +101,6 @@
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
   font-size: 22px;
-  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   word-spacing: 19px;
   white-space: nowrap;
@@ -130,7 +117,6 @@
   width: 256px;
   height: 51px;
   font-size: 22px;
-  font-family: 'Raleway', sans-serif;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -163,7 +149,6 @@
   z-index: 0;
   width: 334px;
   /* Размеры карточек */
-  min-height: 596px;
   padding: 48px 40px 40px 40px;
   /* Внутренние отступы карточки со всех сторон */
 }
@@ -176,7 +161,6 @@
 }
 
 .card__title {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -188,7 +172,6 @@
 }
 
 .card__text {
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 123%;
@@ -309,7 +292,6 @@
 
 .footer_address-list {
   list-style-type: none;
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
 }
@@ -321,7 +303,7 @@
   list-style-type: none;
 }
 
-.footer__menu-link_no-bots {
+.footer__menu-link_active_no-bullit {
   text-decoration: none;
 }
 
